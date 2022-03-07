@@ -1,0 +1,50 @@
+body{
+    background-color: #000 !important;
+    color:#ddd !important;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+video{
+    max-width:100%;
+    width:100%;
+}
+video:hover{
+    cursor: pointer;
+}
+video::-webkit-media-controls-play-button,
+video::-webkit-media-controls-mute-button{
+    display:none !important;
+}
+.control-container{
+    border-left:1px solid #343a40;
+    border-bottom:1px solid #343a40;
+    border-bottom-left-radius: 1em;  
+}
+.list-group-item{
+    cursor:pointer;
+}
+
+.list-group-item.on{
+    color:#ffc966!important;
+}
+
+.list-group-item:hover{
+    background-color:#343a40!important;
+    color:#d3d3d4!important;
+}
+.dark{
+    color:#343a40;
+}
+.card{
+    background-color:#343a40;
+}
+#main-menu{
+    position:fixed;
+    top:25px;
+    left:25px;
+    z-index:1050;
+}
+a.dropdown-toggle::after{
+    margin-left:2em;
+}
