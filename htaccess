@@ -1,1 +1,2 @@
 RewriteEngine on
+RewriteRule (.*) /tvstream/$1 [L]
