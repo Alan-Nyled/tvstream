@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/alannyled/public_html/
-    - /bin/cp -R dev_alannyled $DEPLOYPATH
+    - /bin/cp -R tvstream $DEPLOYPATH
